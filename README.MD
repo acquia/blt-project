@@ -9,6 +9,7 @@ You will need the following installed:
 * [Node](https://nodejs.org), which includes the NPM package manager
 
 1. When you have those, run this command:
+
   ```
   $ composer create-project acquia/blt-project:8.x-dev MY_PROJECT --no-interaction
   ```
