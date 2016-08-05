@@ -11,12 +11,7 @@
     },
     "scripts": {
       "post-create-project-cmd": [
-        "./vendor/acquia/blt/blt.sh install-alias",
-        "./vendor/acquia/blt/blt.sh init",
-        "git init",
-        "composer update",
-        "git add -A",
-        "git commit -m 'Initial commit.'"
+        "./vendor/acquia/blt/blt.sh create-project"
       ]
     }
 }
