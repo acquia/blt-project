@@ -6,7 +6,7 @@
     "require": {},
     "prefer-stable": true,
     "require-dev": {
-        "acquia/blt": "~8"
+        "acquia/blt": "8.x-dev"
     },
     "scripts": {
       "post-create-project-cmd": [
