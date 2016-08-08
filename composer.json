@@ -6,7 +6,7 @@
     "require": {},
     "prefer-stable": true,
     "require-dev": {
-        "acquia/blt": "dev-composer-package"
+        "acquia/blt": "~8"
     },
     "scripts": {
       "post-create-project-cmd": [
