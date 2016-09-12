@@ -3,11 +3,11 @@
     "description": "Project template for Drupal 8 sites built with BLT.",
     "type": "project",
     "minimum-stability": "dev",
-    "require": {},
     "prefer-stable": true,
     "require": {
         "acquia/blt": "^8.3"
     },
+    "require-dev": {},
     "scripts": {
       "post-create-project-cmd": [
         "./vendor/acquia/blt/blt.sh create-project"
