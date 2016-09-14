@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/acquia/blt-project.svg?branch=master)](https://travis-ci.org/acquia/blt-project)
-
 # BLT Project
 
 This is a Composer-based installer for a Drupal 8 project utilizing [BLT](https://github.com/acquia/blt).
