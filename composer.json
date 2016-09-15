@@ -10,7 +10,7 @@
     "require-dev": {},
     "scripts": {
       "post-create-project-cmd": [
-        "./vendor/acquia/blt/blt.sh create-project"
+        "blt create-project"
       ]
     }
 }
