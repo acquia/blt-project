@@ -10,6 +10,7 @@
     "require-dev": {},
     "scripts": {
       "post-create-project-cmd": [
+        "rm .travis.yml",
         "rm README.md",
         "rm LICENSE.md",
         "blt create-project"
