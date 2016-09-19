@@ -10,6 +10,8 @@
     "require-dev": {},
     "scripts": {
       "post-create-project-cmd": [
+        "rm README.md",
+        "rm LICENSE.md",
         "blt create-project"
       ]
     }
