@@ -6,6 +6,16 @@ This is a Composer-based installer for a Drupal 8 project utilizing [BLT](https:
 
 To create a new Drupal 8 project with BLT included, follow instructions for [creating a new project](http://blt.readthedocs.io/en/stable/INSTALL/#creating-a-new-project-with-blt) in BLT.
 
+## Branches
+
+Tags of blt-project will build a new project using the latest stable tag from BLT. E.g.,
+
+`composer create-project acquia/blt-project --no-interaction MY_PROJECT`
+
+The 8.x branch of blt-project will build a new project using the 8.x branch of BLT. E.g.,
+
+`composer create-project acquia/blt-project:8.x-dev --no-interaction MY_PROJECT`
+
 ## License
 
 Copyright (C) 2016 Acquia, Inc.
