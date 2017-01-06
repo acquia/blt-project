@@ -7,13 +7,5 @@
     "require": {
         "acquia/blt": "8.x-dev"
     },
-    "require-dev": {},
-    "scripts": {
-      "post-create-project-cmd": [
-        "rm -f .travis.yml",
-        "rm -f README.md",
-        "rm -f LICENSE.txt",
-        "blt create-project"
-      ]
-    }
+    "require-dev": {}
 }
