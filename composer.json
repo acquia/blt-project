@@ -10,7 +10,7 @@
     "require-dev": {},
     "scripts": {
       "post-create-project-cmd": [
-        "git init"
+        "git init",
         "blt create-project:init-repo"
       ]
     }
