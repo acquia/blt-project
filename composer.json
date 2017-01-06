@@ -7,11 +7,5 @@
     "require": {
         "acquia/blt": "^8.3"
     },
-    "require-dev": {},
-    "scripts": {
-      "post-create-project-cmd": [
-        "git init",
-        "blt create-project:init-repo"
-      ]
-    }
+    "require-dev": {}
 }
