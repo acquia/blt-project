@@ -11,7 +11,7 @@
     "scripts": {
       "post-create-project-cmd": [
         "git init",
-        "blt create-project:init-repo"
+        "blt internal:create-project:init-repo"
       ]
     }
 }
