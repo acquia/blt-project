@@ -7,7 +7,7 @@ cache:
     - "$HOME/.drush/cache"
     - "$HOME/.npm"
 php:
-  - 5.6
+  - 7.1
 
 sudo: false
 
