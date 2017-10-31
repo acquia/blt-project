@@ -5,7 +5,7 @@
         "source": {
           "url": "/${TRAVIS_BUILD_DIR}/.git",
           "type": "git",
-          "reference": "master"
+          "reference": "8.x-stable"
         }
     }
 }
