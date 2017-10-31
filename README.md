@@ -10,11 +10,11 @@ To create a new Drupal 8 project with BLT included, follow instructions for [cre
 
 Tags of blt-project will build a new project using the latest stable tag from BLT. E.g.,
 
-`composer create-project acquia/blt-project --no-interaction MY_PROJECT`
+`composer create-project acquia/blt-project:^9.1.0 --no-interaction MY_PROJECT`
 
-The 9.x branch of blt-project will build a new project using the 9.x branch of BLT. E.g.,
+The 9.1.x branch of blt-project will build a new project using the 9.x branch of BLT. E.g.,
 
-`composer create-project acquia/blt-project:9.x-dev --no-interaction MY_PROJECT`
+`composer create-project acquia/blt-project:9.1.x-dev --no-interaction MY_PROJECT`
 
 ## License
 
