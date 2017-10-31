@@ -39,7 +39,10 @@ install:
   - phpenv config-add drupal.php.ini
   - phpenv rehash
 
+  # Create dummy local repository so we can test this particular commit of blt-project.
+  - envsubst < .test-packages.json > packages.json
+
 script:
   # Build the code base.
   - cd ../
-  - composer create-project acquia/blt-project:8.x-dev blt-example --no-interaction
+  - composer create-project --repository-url=$TRAVIS_BUILD_DIR/packages.json acquia/blt-project blt-example --no-interaction
