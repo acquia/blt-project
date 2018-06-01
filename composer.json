@@ -5,7 +5,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "acquia/blt": "9.x-dev"
+        "acquia/blt": "dev-issue-2496-fatal-error"
     },
     "require-dev": {},
     "scripts": {
