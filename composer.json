@@ -4,6 +4,12 @@
     "type": "project",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": {
+      "drupal": {
+        "type": "composer",
+         "url": "https://packages.drupal.org/8"
+      }
+    },
     "require": {
         "acquia/blt": "10.0.x-dev"
     },
