@@ -44,4 +44,4 @@ install:
 script:
   # Build the code base.
   - cd ../
-  - composer create-project --repository-url=$TRAVIS_BUILD_DIR/packages.json acquia/blt-project blt-example --no-interaction
+  - COMPOSER_MEMORY_LIMIT=-1 composer create-project --repository-url=$TRAVIS_BUILD_DIR/packages.json acquia/blt-project blt-example --no-interaction
